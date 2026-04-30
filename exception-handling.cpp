@@ -18,7 +18,7 @@
    */
 
    // without exception handling
-   /* #include<iostream>
+   #include<iostream>
    using namespace std;
 
      int main(){
@@ -29,10 +29,10 @@
         cout<<"Result :" <<result <<endl;
         return 0;
      }
-        */
+    
 
         // with Exception handling
-     /*  #include<iostream>
+         #include<iostream>
        using namespace std;
 
        int main(){
@@ -51,7 +51,7 @@
          
         return 0;
        }
-        */
+     
 
       // Array Bound Exception (Out-of-Bounds)
 
@@ -59,7 +59,7 @@
 
         // without Exception handling
             
-     /*   #include<iostream>
+      #include<iostream>
         using namespace std;
 
         int main(){
@@ -67,10 +67,10 @@
             cout<< arr[10]<<endl;
             return 0;
         }
-            */
+          
+        // with Exception handling
 
-
-      /*    #include<iostream>
+        #include<iostream>
           using namespace std;
           
           int main(){
@@ -100,7 +100,7 @@
           */
 
     // Standard Library Exception Handling
-        /*  #include <iostream>
+        #include <iostream>
           #include <vector>
           using namespace std;
           
@@ -115,11 +115,11 @@
          }
          return 0;
          }
-         */
+       
 
          // Multiple catch blocks 
 
-      /*   #include <iostream>
+          #include <iostream>
           using namespace std;
 
           int main(){
@@ -147,7 +147,7 @@
              
             return 0;
           }
-            */
+      
 
 
             // 🔹 Number Format Exception
@@ -156,7 +156,7 @@
 
                
     
-               /* #include <iostream>
+              #include <iostream>
                 #include <string>
                 using namespace std;
                 
