@@ -122,9 +122,7 @@
              Animal* a;
                Dog d;     
                a=&d;          // without virtual function, output would be: Animal makes a sound (calls Animal's sound)
-               a->sound();     // with virtual function, output would be: Dog barks (calls Dog's sound)
-             
-                    
+               a->sound();     // with virtual function, output would be: Dog barks (calls Dog's sound)       
 
             return 0;
         }

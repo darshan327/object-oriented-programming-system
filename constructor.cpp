@@ -11,7 +11,6 @@
             cout<<"name :" << name <<endl << "company :" << company << endl << "age :" << age<<endl;
         }
 
-     
        Employee(string Name , string Company , int Age){
           name=Name;
           company=Company;
