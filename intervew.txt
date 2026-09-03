@@ -1,0 +1,48 @@
+1) explain oops concepts with real world example like car
+
+    Encapsulation — "Protect the data"
+
+    In a car, you don't directly access the engine's internal components.
+
+      You simply use:
+      
+      Accelerator
+      Brake
+      Steering
+
+
+    Abstraction — "Hide complexity" 
+
+      When you drive a car:
+
+       Press brake
+            ↓
+       Car stops
+
+
+
+     Inheritance — "Reuse existing properties"   
+
+                  Vehicle
+                │
+       ┌────────┴────────┐
+       ↓                 ↓
+      Car              Bike
+
+         Both are vehicles.
+          
+          A vehicle can have:
+          
+          start()
+          stop()
+       
+     Polymorphism — "Same interface, different behavior"
+       
+      Vehicle
+       │
+       ├── Car → moves using engine
+       │
+       ├── Bike → moves using engine
+       │
+       └── ElectricCar → moves using electric motor 
+                  
